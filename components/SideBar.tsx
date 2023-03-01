@@ -1,5 +1,5 @@
 export default function SideBar() {
-return( <div class="sidebar shadow-2xl absolute md:relative w-7/12 lg:w-2/12 ">
+return( <div class="sidebar hidden shadow-2xl absolute md:relative w-7/12 lg:w-2/12 ">
 <span class="logo">S</span>
 <a class="logo-expand font-logo font-bold" href="#">
   <img src="/logo.png" alt="" srcset="" />
