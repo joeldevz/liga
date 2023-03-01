@@ -86,7 +86,6 @@ body:before {
   overflow-x: hidden;
   z-index: 999;
   background-color: var(--theme-bg);
-
 }
 .sidebar .logo {
   display: none;
