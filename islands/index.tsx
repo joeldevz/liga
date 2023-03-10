@@ -30,7 +30,7 @@ export default function IndexIsland() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>POWER_SKILL</title>
         <link rel="stylesheet" href="/main.css" />
       </Head>
 
