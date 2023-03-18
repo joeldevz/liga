@@ -21,7 +21,7 @@ export default function IndexIsland() {
     name: "La Tropa",
     goals: 0,
   }, {
-    name: "---",
+    name: "Los Fans de Jose",
     goals: 0,
   }, {
     name: "---",
@@ -49,19 +49,29 @@ export default function IndexIsland() {
                   />
                 </a>
               </div>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+              <Marcador
+                  date="18-02-23"
+                  team1={{ goals: 0, name: "---" }}
+                  team2={{ goals: 0, name: "---" }}
+                  time={"21:00"}
+                  
+                />
+                <Marcador
+                  date="18-02-23"
+                  team1={{ goals: 0, name: "---" }}
+                  team2={{ goals: 0, name: "---" }}
+                  time={"21:40"}
+                />
+                 <Marcador
+                  date="18-02-23"
+                  team1={{ goals: 0, name: "---" }}
+                  team2={{ goals: 0, name: "---" }}
+                  time={"22:15"}
+                />
+              </div>
               <div class="grid-cols-1 md:grid-cols-2 grid gap-2">
-                <Marcador
-                  date="26-02-23"
-                  team1={{ goals: 0, name: "---" }}
-                  team2={{ goals: 0, name: "---" }}
-                  time={"20:00"}
-                />
-                <Marcador
-                  date="26-02-23"
-                  team1={{ goals: 0, name: "---" }}
-                  team2={{ goals: 0, name: "---" }}
-                  time={"20:00"}
-                />
+                
                 <div class="relative flex-shrink-0 max-w-[95vw] overflow-hidden rounded-3xl bg-black anim" style='--delay: .2s;'>
                   <img
                     src="/banner-2.png"

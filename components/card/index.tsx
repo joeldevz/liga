@@ -1,6 +1,7 @@
 function Card(props: any) {
-  const { variant, extra, children, name,goals,style, ...rest } = props;
+  const { variant, extra, children, name,style,  ...rest } = props;
   return (
+    <a href={"#"||`/team/${name.toLowerCase()}`} >
     <div class="relative flex flex-col items-center rounded-[20px] w-full mx-auto p-4 bg-white bg-clip-border  hover:scale-105 mb-5  transition-all duration-150 cursor-pointer anim " style={style}>
       <div class="relative flex w-full justify-center rounded-xl bg-cover">
        
@@ -16,27 +17,28 @@ function Card(props: any) {
         <h4 class="text-xl font-bold text-white">
           {name}
         </h4>
-        <p class="text-base font-normal text-white">Ver mas</p>
       </div>
       <div class="mt-6 mb-3 flex gap-14 md:!gap-14">
-        <div class="flex flex-col items-center justify-center">
+      <p class="text-base font-normal text-white">Ver mas</p>
+    {/*     <div class="flex flex-col items-center justify-center">
           <p class="text-2xl font-bold  text-white">{goals}</p>
           <p class="text-sm font-normal text-white">GOLES</p>
         </div>
         <div class="flex flex-col items-center justify-center">
           <p class="text-2xl font-bold  text-white">
-            6
+            {PG}
           </p>
-          <p class="text-sm font-normal text-white">Equipo</p>
+          <p class="text-sm font-normal text-white">PG</p>
         </div>
         <div class="flex flex-col items-center justify-center">
           <p class="text-2xl font-bold  text-white">
-            0
+            {PP}
           </p>
-          <p class="text-sm font-normal text-white">KDA</p>
+          <p class="text-sm font-normal text-white">PP</p>
         </div>
-      </div>
+       */}</div>
     </div>
+    </a>
   );
 }
 export default Card;

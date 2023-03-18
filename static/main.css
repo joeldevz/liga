@@ -937,7 +937,6 @@ button.vjs-play-control.vjs-control.vjs-button {
 }
 
 .team-logo {
- 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -945,9 +944,7 @@ button.vjs-play-control.vjs-control.vjs-button {
   background-color: var(--color-bg-primary);
   box-shadow: 0 4px 4px 0 rgba(48, 48, 48, 0.15), 0 0 0 15px var(--color-bg-secondary);
 }
-.team-logo img {
-  width: 50px;
-}
+
 
 .team-name {
   text-align: center;

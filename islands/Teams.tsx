@@ -3,18 +3,24 @@ import Card from "../components/card/index.tsx"
 
 export interface DetailsTeam{
     name:string;
-    goals:number;
+    pj: number,
+    pg: number,
+    pe: number,
+    pp: number,
+    gf: number,
+    gc: number,
+    "+/-": number,
+    pts: number,
 }
 export interface TeamsProps {
     teams: DetailsTeam[];
   }
   
 export default function CardsIsland(props:TeamsProps){
-/*     const [cards, setCards]=useState(props.start)
- */    return (
+    return (
         <>
             {props.teams.map((card, index) => 
-                <Card name={card.name} goals={card.goals} style={`--delay: .${4+index}s;background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); `}/>
+                <Card name={card.name}   style={`--delay: .${4+index}s;background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); `}/>
             )}
         </>
     )
