@@ -27,6 +27,9 @@ export const getGoalByTeam = (findTeam: teamNames, match: Match[]) => {
   match.map((item) => {
     let goalFMatch = 0;
     let goalCMatch = 0;
+    if (item.play === false || item.play === undefined) {
+      return;
+    }
     if (item.team1 === findTeam) {
       pj++;
       item.goals.forEach((go) => {

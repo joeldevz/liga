@@ -1,5 +1,4 @@
 import Tabla from "../components/Tabla.tsx";
-import Marcador from "../components/Marcador.tsx";
 import CardsIsland from "../islands/Teams.tsx";
 import Layout from "../components/layout/index.tsx";
 import { getGoalByTeam } from "../components/Functions/index.ts";
@@ -15,6 +14,7 @@ export interface Match {
   date: string;
   team1: teamNames;
   team2: teamNames;
+  play?: boolean;
   goals: {
     team: teamNames;
     player: string;
@@ -25,6 +25,7 @@ export interface Match {
 export const Matchs = [
   {
     jornada:1,
+    play: true,
     date: "17-03-23",
     time: "21:00",
     team1: teamNames["La Tropa"],
@@ -49,6 +50,7 @@ export const Matchs = [
   },
   {
     jornada:1,
+    play: true,
     time: "21:40",
     date: "17-03-23",
     team1: teamNames["LECHONES FC"],
@@ -81,6 +83,7 @@ export const Matchs = [
   },
   {
     jornada:1,
+    play: true,
     time: "22:15",
     date: "17-03-23",
     team1: teamNames["Los Fans de Jose"],
