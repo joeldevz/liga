@@ -3,12 +3,24 @@ import CardsIsland from "../islands/Teams.tsx";
 import Layout from "../components/layout/index.tsx";
 import { getGoalByTeam } from "../components/Functions/index.ts";
 export enum teamNames {
-  "X-FORCE" = 0,
-  "Shalke Temeto" = 1,
-  "All Stars" = 2,
-  "La Tropa" = 3,
-  "Los Fans de Jose" = 4,
-  "LECHONES FC" = 5,
+  "X-FORCE" = "X-FORCE",
+  "Shalke Temeto" = "Shalke Temeto",
+  "All Stars" = "All Stars",
+  "La Tropa" ="La Tropa",
+  "Los Fans de Jose" = "Los Fans de Jose",
+  "LECHONES FC" = "LECHONES FC",
+}
+export interface TeamsInterface {
+  gf: number;
+  gc: number;
+  pj: number;
+  pts: number;
+  pg: number;
+  pp: number;
+  pe: number;
+  "+/-": number;
+  name: string;
+  img: string;
 }
 export interface Match {
   date: string;
