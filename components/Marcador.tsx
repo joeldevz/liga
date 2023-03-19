@@ -12,7 +12,7 @@ interface TeamsMatch{
 }
 export default function Marcador(props:TeamsMatch) {
     return (
-	<div class=" mb-2 anim p-3 mb-5 bg-gray-200 rounded-2xl" style="--delay: .1s; ">
+	<div class=" mb-2 anim p-3 mb-5 bg-gray-200 rounded-2xl" style="--delay: .1s;">
 		<div class="match-content grid grid-cols-3 pt-3">
 			<div >
                 <div class="team">
