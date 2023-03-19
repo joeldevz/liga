@@ -176,7 +176,7 @@ export const Matchs = [
     jornada:3,
     time: "22:15",
     date: "31-03-23 (Confirmar)",
-    team1: teamNames["Los Fans de Jose"],
+    team1: teamNames["LECHONES FC"],
     team2: teamNames["All Stars"],
     goals: [],
   },
