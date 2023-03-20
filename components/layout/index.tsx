@@ -11,6 +11,8 @@ export default function Layout({children}:{children:any}) {
           <Head>
             <title>POWER_SKILL</title>
             <link rel="stylesheet" href="/main.css" />
+            <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+
           </Head>
     
           <>

@@ -4,30 +4,36 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/[name].tsx";
-import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/banner.tsx";
-import * as $3 from "./routes/index.tsx";
-import * as $4 from "./routes/matchs.tsx";
-import * as $5 from "./routes/news.tsx";
-import * as $6 from "./routes/team/x-force.tsx";
-import * as $$0 from "./islands/Counter.tsx";
-import * as $$1 from "./islands/Teams.tsx";
-import * as $$2 from "./islands/index.tsx";
+import * as $1 from "./routes/_404.tsx";
+import * as $2 from "./routes/api/joke.ts";
+import * as $3 from "./routes/banner.tsx";
+import * as $4 from "./routes/index.tsx";
+import * as $5 from "./routes/matchs.tsx";
+import * as $6 from "./routes/news/[id].tsx";
+import * as $7 from "./routes/news/index.tsx";
+import * as $8 from "./routes/team/x-force.tsx";
+import * as $$0 from "./islands/Blog.tsx";
+import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/Teams.tsx";
+import * as $$3 from "./islands/index.tsx";
 
 const manifest = {
   routes: {
     "./routes/[name].tsx": $0,
-    "./routes/api/joke.ts": $1,
-    "./routes/banner.tsx": $2,
-    "./routes/index.tsx": $3,
-    "./routes/matchs.tsx": $4,
-    "./routes/news.tsx": $5,
-    "./routes/team/x-force.tsx": $6,
+    "./routes/_404.tsx": $1,
+    "./routes/api/joke.ts": $2,
+    "./routes/banner.tsx": $3,
+    "./routes/index.tsx": $4,
+    "./routes/matchs.tsx": $5,
+    "./routes/news/[id].tsx": $6,
+    "./routes/news/index.tsx": $7,
+    "./routes/team/x-force.tsx": $8,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
-    "./islands/Teams.tsx": $$1,
-    "./islands/index.tsx": $$2,
+    "./islands/Blog.tsx": $$0,
+    "./islands/Counter.tsx": $$1,
+    "./islands/Teams.tsx": $$2,
+    "./islands/index.tsx": $$3,
   },
   baseUrl: import.meta.url,
   config,
