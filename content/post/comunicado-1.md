@@ -12,4 +12,4 @@ Creemos que esto es una medida importante para garantizar la transparencia y la 
 
 Atentamente,
 
-CHRISTOPHER ZAMBRANO
+DIRECTIVA 
