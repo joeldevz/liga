@@ -133,28 +133,30 @@ export const Matchs = [
   },
   {
     jornada: 2,
-    time: "22:15",
-    date: "24-03-23 (Confirmar)",
+    time: "21:00",
+    date: "24-03-23",
     team1: teamNames["Shalke Temeto"],
     team2: teamNames["La Tropa"],
     goals: [],
+    
   },
   {
     jornada: 2,
-    time: "22:15",
-    date: "24-03-23 (Confirmar)",
-    team1: teamNames["X-FORCE"],
-    team2: teamNames["All Stars"],
-    goals: [],
-  },
-  {
-    jornada: 2,
-    time: "22:15",
-    date: "24-03-23 (Confirmar)",
+    time: "21:40",
+    date: "24-03-23",
     team1: teamNames["Los Fans de Jose"],
     team2: teamNames["LECHONES FC"],
     goals: [],
   },
+  {
+    jornada: 2,
+    time: "22:15",
+    date: "24-03-23",
+    team1: teamNames["X-FORCE"],
+    team2: teamNames["All Stars"],
+    goals: [],
+  },
+
 
   {
     jornada: 3,
