@@ -10,6 +10,7 @@ export default function Match() {
         <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-2 anim">
           {Matchs.map((match, index) => {
             const goalsTeam1 = getGoalByTeam(match.team1, [match]);
+            console.log(goalsTeam1)
                return <>
                {(index ) % 3 === 0?<div class="lg:col-span-3 md:col-span-2 col-span-1 text-center text-white"  style="--delay: .1s;">JORNADA {match.jornada}</div>:""}
                <Marcador
