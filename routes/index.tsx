@@ -264,26 +264,103 @@ export const Matchs = [
   {
     jornada: 3,
     time: "21:00",
+    play: true,
     date: "31-03-23",
     team1: teamNames["Shalke Temeto"],
     team2: teamNames["Los Fans de Jose"],
-    goals: [],
+    goals: [{
+      team: teamNames["Shalke Temeto"],
+      player: "Samu",
+      goal: 1,
+    },
+    {
+      team: teamNames["Shalke Temeto"],
+      player: "christian",
+      goal: 5,
+    },
+    {
+      team: teamNames["Shalke Temeto"],
+      player: "Juan",
+      goal: 2,
+    },
+    {
+      team: teamNames["Shalke Temeto"],
+      player: "PP Edu",
+      goal: 1,
+    },
+    {
+      team: teamNames["Los Fans de Jose"],
+      player: "Cepeda",
+      goal: 3,
+    },
+    {
+      team: teamNames["Los Fans de Jose"],
+      player: "Edu",
+      goal: 1,
+    },
+    {
+      team: teamNames["Los Fans de Jose"],
+      player: "Jose luis",
+      goal: 1,
+    },
+  ],
   },
   {
     jornada: 3,
     time: "21:35",
+    play: true,
+
     date: "31-03-23",
     team1: teamNames["LECHONES FC"],
     team2: teamNames["All Stars"],
-    goals: [],
+    goals: [{
+      team:teamNames["All Stars"],
+      player: "Fredy",
+      goal: 1,
+    },
+    {
+      team:teamNames["All Stars"],
+      player: "william",
+      goal: 2,
+    },
+  ],
   },
   {
     jornada: 3,
     time: "22:50",
+    play: true,
+
     date: "31-03-23",
     team1: teamNames["X-FORCE"],
     team2: teamNames["La Tropa"],
-    goals: [],
+    goals: [
+      {
+        team: teamNames["X-FORCE"],
+        player: "Sergio",
+        goal: 2,
+      },
+      {
+        team: teamNames["X-FORCE"],
+        player: "Chris",
+        goal: 1,
+      },
+      {
+        team: teamNames["X-FORCE"],
+        player: "Carlos",
+        goal: 1,
+      },
+      {
+        team: teamNames["La Tropa"],
+        player: "Matias",
+        goal: 1,
+      },
+      {
+        team: teamNames["La Tropa"],
+        player: "Terry",
+        goal: 2,
+      },
+
+    ],
   },
 
 
