@@ -366,16 +366,47 @@ export const Matchs = [
 
   {
     jornada: 4,
-    time: "22:15",
-    date: "07-04-23 (Confirmar)",
+    time: "21:00",
+    date: "15-04-23",
+    play: true,
     team1: teamNames["La Tropa"],
     team2: teamNames["Los Fans de Jose"],
-    goals: [],
+    goals: [
+      {
+        team: teamNames["La Tropa"],
+        player: "Efrain",
+        goal: 4,
+      },{
+        team: teamNames["La Tropa"],
+        player: "Pierro",
+        goal: 4,
+      },
+      {
+        team: teamNames["La Tropa"],
+        player: "jose",
+        goal: 1,
+      },
+      {
+        team: teamNames["La Tropa"],
+        player: "Matias",
+        goal: 1,
+      },
+      {
+        team: teamNames["Los Fans de Jose"],
+        player: "Cepeda",
+        goal: 2,
+      },
+      {
+        team: teamNames["Los Fans de Jose"],
+        player: "Edu",
+        goal: 1,
+      }
+    ],
   },
   {
     jornada: 4,
-    time: "22:15 ",
-    date: "07-04-23 (Confirmar)",
+    time: "22:15 (NO JUGAR)",
+    date: "15-04-23",
     team1: teamNames["X-FORCE"],
     team2: teamNames["LECHONES FC"],
     goals: [],
@@ -383,10 +414,48 @@ export const Matchs = [
   {
     jornada: 4,
     time: "22:15",
-    date: "07-04-23 (Confirmar)",
+    play: true,
+
+    date: "15-04-23",
     team1: teamNames["All Stars"],
     team2: teamNames["Shalke Temeto"],
-    goals: [],
+    goals: [
+      {
+        team: teamNames["All Stars"],
+        player: "Freddy",
+        goal: 2,
+      },
+      {
+        team: teamNames["All Stars"],
+        player: "Claudio",
+        goal: 1,
+      },
+      {
+        team: teamNames["All Stars"],
+        player: "Willy",
+        goal: 1,
+      },
+      {
+        team: teamNames["All Stars"],
+        player: "Ruben",
+        goal: 2,
+      },
+      {
+        team: teamNames["All Stars"],
+        player: "Camilo",
+        goal: 1,
+      },
+      {
+        team: teamNames["Shalke Temeto"],
+        player: "Gianpi",
+        goal: 2,
+      },
+      {
+        team: teamNames["Shalke Temeto"],
+        player: "Javi",
+        goal: 1,
+      }
+    ],
   },
 
   {
